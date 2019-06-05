@@ -4,8 +4,8 @@ network:
   ethernets:
     ${NET_IFACE}:
       addresses: [192.168.0.1/24]
-      gateway: 192.168.0.1
+      gateway4: 192.168.0.1
     ${CAM_IFACE}:
       addresses: [169.254.0.60/16]
-      gateway: 0.0.0.0
+      gateway4: 0.0.0.0
       mtu: 9000
